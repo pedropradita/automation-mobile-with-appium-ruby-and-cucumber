@@ -1,4 +1,4 @@
-#My sample code for automation mobile with appium ruby and cucumber
+# My sample code for automation mobile with appium ruby and cucumber
 
 ## How to run in windows
 ```
