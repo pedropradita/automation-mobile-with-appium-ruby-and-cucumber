@@ -16,11 +16,7 @@ Then("user click button login") do
 sleep(2)
 end
 
-#i try login but always wrong email or password
-
-#this code for verify success login
-
-# Then("user see profile") do
-# @driver.find_element(:id, "com.loginmodule.learning:id/textViewEmail").displayed?
-# sleep(2)
-# end
+Then("user see profile") do
+@driver.find_element(:id, "com.loginmodule.learning:id/textViewEmail").displayed?
+sleep(2)
+end
